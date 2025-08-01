@@ -53,7 +53,7 @@ Vulnerabilities must be remediated within the following timeframes based on seve
 
 |**Severity**|**CVSS Score**|**Remediation Timeframe**|
 |---|---|---|
-|**Critical**|9.0 - 10.0|7 days|
+|**Critical**|9.0 - 10.0|30 days|
 |**High**|7.0 - 8.9|30 days|
 |**Medium**|4.0 - 6.9|90 days|
 |**Low**|0.1 - 3.9|180 days|
@@ -63,7 +63,7 @@ Vulnerabilities must be remediated within the following timeframes based on seve
 When vulnerabilities cannot be remediated within standard timeframes, a formal exception process applies:
 
 - **Request:** Asset owners submit formal exception requests including business justification, risk analysis, and proposed compensating controls
-- **Approval:** Exception requests require approval from the asset owner's manager and IT Manager/Security Officer. Critical or High severity vulnerabilities require additional senior management approval
+- **Approval:** Exception requests require approval from the Security Lead (e.g., CTO or IT Manager)
 - **Documentation:** All approved exceptions are documented in a centralized risk register
 - **Duration:** Approved exceptions are temporary and reviewed quarterly
 

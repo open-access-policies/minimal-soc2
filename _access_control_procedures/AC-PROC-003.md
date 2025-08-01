@@ -13,17 +13,17 @@ This procedure applies to all user accounts with access to company information s
 
 ### 3. Overview
 
-This procedure describes the process for conducting quarterly access reviews to ensure users maintain only the access necessary for their current role. Regular reviews help maintain the principle of least privilege and support SOC 2 compliance.
+This procedure describes the process for conducting periodic access reviews to ensure users maintain only the access necessary for their current role. Review frequencies are tailored based on access privileges: quarterly reviews for accounts with privileged or administrative access, and semi-annual reviews for all other standard user accounts. Regular reviews help maintain the principle of least privilege and support SOC 2 compliance.
 
 ### 4. Procedure
 
 | **Step** | **Who**                      | **What**                                                                                                             |
 | -------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **1**    | IT Manager/Security Officer  | Generates user access reports for all systems and applications quarterly.                                           |
-| **2**    | IT Manager/Security Officer  | Reviews each user's access rights to verify they align with current job responsibilities.                           |
+| **1**    | IT Manager/Security Officer  | Generates user access reports for all systems and applications according to the review schedule: quarterly for privileged/administrative accounts, semi-annually for standard user accounts. |
+| **2**    | IT Manager/Security Officer  | Reviews each user's access rights to verify they align with current job responsibilities and access privilege level. |
 | **3**    | Direct Manager               | Attests whether access is still appropriate for each team member's current role.                                     |
 | **4**    | IT Manager/Security Officer  | Removes any unnecessary access rights identified during the review.                                                  |
-| **5**    | IT Manager/Security Officer  | Documents the review results and stores as audit records.                                                           |
+| **5**    | IT Manager/Security Officer  | Documents the review results, including review frequency applied, and stores as audit records.                      |
 
 ### 5. Standards Compliance
 

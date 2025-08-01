@@ -12,7 +12,7 @@ These procedures shall be conducted and documented every three months to ensure 
 | -------------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
 | **Information Security Committee Charter Procedure** (SEC-PROC-001)  | Committee Chair          | Defines the operating rules and responsibilities of the Information Security Committee, which holds quarterly meetings.            |
 | **Facility Access Management Procedure** (SEC-PROC-006)              | Facilities/Security Team | Describes the process for managing physical facility access, including conducting and documenting quarterly access reviews.        |
-| **User Access Review Procedure** (AC-PROC-003)                       | IT/Security Team         | Defines the process for conducting periodic reviews of user access rights to ensure adherence to the principle of least privilege. |
+| **User Access Review Procedure** (AC-PROC-003)                       | IT/Security Team         | Defines the process for conducting periodic reviews of privileged user access rights (quarterly) and all other access rights (semi-annually) to ensure adherence to the principle of least privilege. |
 | **Privileged Infrastructure Access Review Procedure** (ENG-PROC-006) | Security Team            | Outlines the steps for conducting and documenting the required quarterly reviews of all user accounts with privileged access.      |
 
 #### **Annual Procedures**
@@ -24,7 +24,7 @@ These procedures shall be performed at least once per year to satisfy major comp
 | **Internal Audit Procedure** (SEC-PROC-002)                        | Head of Internal Audit      | Outlines the process for planning, conducting, and reporting on annual internal audits of the Information Security Management System.        |
 | **Risk Assessment Procedure** (SEC-PROC-004)                       | Security Officer            | Establishes a systematic process for conducting risk assessments annually and on an ad-hoc basis when significant changes occur.             |
 | **Incident Response Plan (IRP)** ([RES-PROC-001])                  | Security Team               | Provides actionable steps for responding to incidents, including conducting annual training and simulation exercises.                        |
-| **Cryptographic Key Lifecycle Management Procedure** (OP-PROC-001) | Security Engineering Team   | Provides technical steps for the secure lifecycle of cryptographic keys, including their annual rotation.                                    |
+| **Cryptographic Key Lifecycle Management Procedure** (OP-PROC-001) | Cloud Operations Team   | Provides technical steps for the secure lifecycle of cryptographic keys, including their annual rotation.                                    |
 | **Application Security Testing Procedure** (ENG-PROC-001)          | Security Team               | Details the process for conducting security testing, including annual penetration tests for applications handling sensitive data.            |
 
 #### **Ad-Hoc / As-Needed / Event-Driven Procedures**
@@ -33,9 +33,8 @@ These procedures are not performed on a fixed schedule but are triggered by spec
 
 | **Procedure (Code)**                                                            | **Primary Owner**            | **Description**                                                                                                                         |
 | ------------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Password Policy Exception Procedure** (SEC-PROC-003)                          | Security Officer             | Provides a formal process for requesting, reviewing, and documenting exceptions to the Password Policy.                                 |
+| **Access Control Policy Exception Procedure** (SEC-PROC-003)                    | Security Officer             | Provides a formal process for requesting, reviewing, and documenting exceptions to the Access Control Policy password and authentication requirements. |
 | **Vendor Risk Assessment and Onboarding Procedure** (SEC-PROC-005)              | Security Team                | Details the process for assessing a new vendor's security posture before engagement.                                                    |
-| **AI Tool Risk Assessment and Approval Procedure** (SEC-PROC-007)               | AI Governance Committee      | Defines the process for performing a risk assessment on new AI tools before they are approved for use.                                  |
 | **Vulnerability Management Procedure** (SEC-PROC-008)                           | Security Team                | Describes the continuous workflow for identifying, prioritizing, remediating, and verifying system vulnerabilities.                     |
 | **Vulnerability Management Exception Procedure** (SEC-PROC-009)                 | Security Officer             | Outlines the process for formally requesting and documenting an exception to a vulnerability remediation Service Level Agreement (SLA). |
 | **Acceptable Use Policy Violation Investigation Procedure** (AC-PROC-001)       | Security Officer             | Defines the process for investigating and responding to reported violations of the acceptable use policy.                               |

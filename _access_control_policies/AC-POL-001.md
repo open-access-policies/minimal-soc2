@@ -33,9 +33,9 @@ Access rights shall be managed throughout the user's employment lifecycle.
 
 Regular access reviews shall be conducted to ensure access rights remain appropriate.
 
-- Access to systems containing sensitive or confidential data shall be reviewed quarterly by system owners or managers.
+- Accounts with privileged or administrative access shall be reviewed quarterly by system owners or managers.
     
-- All other user access shall be reviewed annually.
+- All other standard user accounts shall be reviewed semi-annually (every six months).
     
 - Reviews shall require documented approval from designated managers. Failure to complete reviews within **[Number, e.g., 14]** days shall result in escalation to the **[Role Title, e.g., IT Manager/Security Officer]**.
     
@@ -53,19 +53,53 @@ Administrative accounts require additional controls due to their elevated risk.
     
 - Administrative activities shall be logged and monitored.
 
-**3.5 System Access Controls**
+**3.5 Password and Authentication Requirements**
 
-Logical access to systems shall be secured through proper authentication and session management.
+All systems and applications must be configured to enforce comprehensive password requirements and authentication standards.
 
 - **Unique Identification:** Every user shall have a unique user ID. Shared accounts are prohibited.
-    
-- **Authentication:** Access requires unique user ID and strong password as defined in the Password Policy (SEC-POL-002). MFA is required for sensitive systems.
-    
+
+- **Password Requirements:** All user passwords must meet these standards:
+  - **Length:** Minimum twelve (12) characters for standard user accounts. Minimum sixteen (16) characters for accounts with administrative privileges.
+  - **Complexity:** Passwords must contain characters from at least three (3) of the following categories: uppercase letters (A-Z), lowercase letters (a-z), numbers (0-9), special characters (e.g., `!@#$%^&*()`)
+  - **Prohibited Content:** Passwords must not contain company names, usernames, personal information, dictionary words, or common patterns
+
+- **Password Management:**
+  - **Password Age:** User passwords must be changed at least every **[Number, e.g., 90]** days
+  - **Password History:** Systems must prevent reuse of the previous **[Number, e.g., 5]** passwords
+  - **Account Lockout:** User accounts must be automatically locked for **[Duration, e.g., 30 minutes]** after **[Number, e.g., 5]** consecutive failed login attempts
+
+- **Multi-Factor Authentication (MFA):** MFA is required for all workforce members and must be implemented on:
+  - All systems containing sensitive or confidential data
+  - Remote access to company networks (e.g., VPN)
+  - Administrative accounts and privileged access
+  - Cloud-based business applications and services
+
+- **Password Protection:** Passwords must never be shared, written down, or stored in plain text. Use of a company-approved password manager is strongly encouraged.
+
 - **Session Timeouts:** Systems shall automatically terminate inactive sessions after **[Duration, e.g., 15 minutes]** for sensitive systems and **[Duration, e.g., 30 minutes]** for other systems.
-    
+
 - **Network Security:** Corporate networks shall be segmented with appropriate access controls between network zones.
 
-**3.6 Third-Party Access**
+**3.6 Remote Access Security**
+
+All remote work must be conducted securely to protect company information and systems from unauthorized access or disclosure.
+
+- **Secure Network Connectivity:** All access to internal company systems and sensitive data must use the company-approved Virtual Private Network (VPN). Public or untrusted Wi-Fi networks may not be used for accessing sensitive company data.
+
+- **Device Security Requirements:** Any device used to access company resources remotely must meet comprehensive security standards:
+  - **Encryption:** Full-disk encryption must be enabled on all devices
+  - **Access Control:** Devices must be protected with strong passwords or biometric controls and configured to automatically lock after **[Number, e.g., 15]** minutes of inactivity
+  - **Malware Protection:** Company-approved anti-malware software must be installed and kept current
+  - **Updates:** Operating systems and applications must be kept up-to-date with security patches
+
+- **Data Handling:** Sensitive company data may not be stored locally on personal devices. All sensitive data must be accessed through company-managed systems or cloud platforms.
+
+- **Physical Security:** Take measures to prevent unauthorized viewing of screens in public spaces. Company equipment must be physically secured and never left unattended in vehicles or public locations.
+
+- **Personal Device Use:** Personal devices must be registered with the IT Department before accessing company resources. Required security software must be installed and maintained on personal devices.
+
+**3.7 Third-Party Access**
 
 Third parties require security review before receiving access to company systems or data.
 
@@ -86,7 +120,9 @@ This policy is designed to comply with and support the following industry standa
 | ------------------ | ----------------------------- | ------------------------------------------------------------- |
 | **All**            | SOC 2 Trust Services Criteria | CC6.1 - Logical Access Security                               |
 | **3.2, 3.3**       | SOC 2 Trust Services Criteria | CC6.2 - Prior to issuing system credentials...                |
-| **3.2, 3.6**       | SOC 2 Trust Services Criteria | CC6.3 - Authorization, modification, and removal of access... |
+| **3.2, 3.7**       | SOC 2 Trust Services Criteria | CC6.3 - Authorization, modification, and removal of access... |
+| **3.5**            | SOC 2 Trust Services Criteria | CC6.2 - User Access Authentication                            |
+| **3.6**            | SOC 2 Trust Services Criteria | CC6.6 - The entity implements logical access security measures for assets... |
 
 ### 5. Definitions
 
@@ -97,6 +133,10 @@ This policy is designed to comply with and support the following industry standa
 - **Multi-Factor Authentication (MFA):** An authentication method requiring two or more verification factors to gain access.
 
 - **System Owner:** The individual responsible for a specific system or application, typically a manager or technical lead.
+
+- **Virtual Private Network (VPN):** A secure, encrypted connection over a public network to access company systems.
+
+- **Remote Work:** Work performed for **[Company Name]** from locations outside designated corporate offices.
 
 ### 6. Responsibilities
 

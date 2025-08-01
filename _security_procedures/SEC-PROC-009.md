@@ -13,18 +13,16 @@ This procedure applies when an asset owner cannot remediate a vulnerability with
 
 ### 3. Overview
 
-This procedure provides a structured pathway for managing situations where immediate vulnerability remediation is not feasible. It details the steps for an asset owner to request an exception, the multi-level approval workflow based on vulnerability severity, and the requirement to document approved exceptions in the risk register for regular review.
+This procedure provides a streamlined pathway for managing situations where immediate vulnerability remediation is not feasible. It details the steps for an asset owner to request an exception, the simplified approval workflow, and the requirement to document approved exceptions in the risk register for regular review.
 
 ### 4. Procedure
 
 | **Step** | **Who**                      | **What**                                                                                                                                                           |
 | -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1**    | Asset Owner                  | Submits a formal Exception Request Form, including a detailed justification, risk analysis, and any compensating controls in place.                                  |
-| **2**    | Asset Owner's Manager        | Reviews the request for business validity and approves or denies it.                                                                                               |
-| **3**    | Security Officer             | Reviews the request for security implications and approves or denies it.                                                                                           |
-| **4**    | CTO                          | For Critical or High-risk vulnerabilities, provides the final layer of approval.                                                                                   |
-| **5**    | Security Team                | Documents the approved exception, including its expiration date, in the risk register.                                                                             |
-| **6**    | Security Team                | Reviews all active exceptions on a quarterly basis to ensure they are still valid and necessary.                                                                   |
+| **2**    | Security Lead (e.g., CTO or IT Manager) | Reviews the request for business validity and security implications, then provides final approval or denial.                                                    |
+| **3**    | Security Lead                | Documents the approved exception, including its expiration date, in the risk register.                                                                             |
+| **4**    | Security Lead                | Reviews all active exceptions on a quarterly basis to ensure they are still valid and necessary.                                                                   |
 
 ### 5. Standards Compliance
 
@@ -38,14 +36,11 @@ A completed and approved Exception Request Form documented in the risk register.
 
 ### 7. Definitions
 
-**SLA:** Service Level Agreement.
-**CTO:** Chief Technology Officer.
+**Security Lead:** A designated individual responsible for security oversight, typically the CTO or IT Manager in a small organization.
 
 ### 8. Responsibilities
 
 | **Role**                | **Responsibility**                                                                                             |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Asset Owner**         | Initiates the exception request and provides all necessary justification and documentation.                      |
-| **Asset Owner's Manager** | Provides the initial business approval for the exception request.                                              |
-| **Security Officer**    | Provides security approval and ensures proper documentation in the risk register.                              |
-| **CTO**                 | Provides final approval for exceptions related to high-impact vulnerabilities.                                 |
+| **Security Lead (e.g., CTO or IT Manager)** | Provides approval for exception requests and ensures proper documentation in the risk register. Conducts quarterly reviews of all active exceptions. |

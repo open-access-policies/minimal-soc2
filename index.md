@@ -7,13 +7,10 @@ permalink: /
 
 ## Table of Contents
 
-### Access Control
-
-#### Policies
+#### Access Control
 
 * [Access Control Policy (AC-POL-001)](./access_control_policies/AC-POL-001)
-* [Network Acceptable Use Policy (AC-POL-002)](./access_control_policies/AC-POL-002)
-* [Remote Work Policy (AC-POL-003)](./access_control_policies/AC-POL-003)
+* [Acceptable Use Policy (AC-POL-002)](./access_control_policies/AC-POL-002)
 
 #### Procedures
 
@@ -47,7 +44,6 @@ permalink: /
 * [Mobile Device Policy (BYOD) (OP-POL-002)](./operational_policies/OP-POL-002)
 * [Data Retention and Disposal Policy (OP-POL-003)](./operational_policies/OP-POL-003)
 * [Human Resources Security Policy (OP-POL-004)](./operational_policies/OP-POL-004)
-* [Acceptable Software and Browser Extension Policy (OP-POL-005)](./operational_policies/OP-POL-005)
 
 #### Procedures
 
@@ -78,30 +74,25 @@ permalink: /
 #### Policies
 
 * [Information Security Policy (SEC-POL-001)](./security_policies/SEC-POL-001)
-* [Password Policy (SEC-POL-002)](./security_policies/SEC-POL-002)
 * [Risk Management Policy (SEC-POL-003)](./security_policies/SEC-POL-003)
 * [Data Classification and Handling Policy (SEC-POL-004)](./security_policies/SEC-POL-004)
 * [Vendor and Third-Party Risk Management Policy (SEC-POL-005)](./security_policies/SEC-POL-005)
 * [Physical Security Policy (SEC-POL-006)](./security_policies/SEC-POL-006)
-* [AI Acceptable Use Policy (SEC-POL-007)](./security_policies/SEC-POL-007)
 * [Vulnerability Management Policy (SEC-POL-008)](./security_policies/SEC-POL-008)
 
 #### Procedures
 
-* [Information Security Committee Charter Procedure (SEC-PROC-001)](./security_procedures/SEC-PROC-001)
 * [Internal Audit Procedure (SEC-PROC-002)](./security_procedures/SEC-PROC-002)
-* [Password Policy Exception Procedure (SEC-PROC-003)](./security_procedures/SEC-PROC-003)
+* [Access Control Policy Exception Procedure (SEC-PROC-003)](./security_procedures/SEC-PROC-003)
 * [Risk Assessment Procedure (SEC-PROC-004)](./security_procedures/SEC-PROC-004)
 * [Vendor Risk Assessment and Onboarding Procedure (SEC-PROC-005)](./security_procedures/SEC-PROC-005)
 * [Facility Access Management Procedure (SEC-PROC-006)](./security_procedures/SEC-PROC-006)
-* [AI Tool Risk Assessment and Approval Procedure (SEC-PROC-007)](./security_procedures/SEC-PROC-007)
 * [Vulnerability Management Procedure (SEC-PROC-008)](./security_procedures/SEC-PROC-008)
 * [Vulnerability Management Exception Procedure (SEC-PROC-009)](./security_procedures/SEC-PROC-009)
 
 ### ISMS Supplements
 
 * [Schedule of Security Procedures (ISMS-SUP-001)](./isms_supplements/ISMS-SUP-001)
-* [ISMS High-Level RACI Chart (ISMS-SUP-002)](./isms_supplements/ISMS-SUP-002)
 
 ## About This Framework
 

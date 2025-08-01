@@ -11,14 +11,6 @@ The objective of this policy is to establish a formal process for managing all c
 
 This policy applies to all workforce members involved in the development, testing, approval, and deployment of changes to any production environment. This includes all applications, source code, infrastructure-as-code configurations, and databases that support **[Company Name]**'s services.
 
-### 1. Objective
-
-The objective of this policy is to establish a comprehensive change management process for **[Company Name]**'s production systems that meets SOC 2 requirements while maintaining practical implementation. This policy ensures changes are properly authorized, tested, and documented to maintain system stability and security.
-
-### 2. Scope
-
-This policy applies to all workforce members involved in making changes to production systems, applications, and infrastructure. This includes all code changes, system configurations, and database modifications that affect production environments.
-
 ### 3. Policy
 
 All changes to production environments shall follow a documented process to ensure system stability, security, and auditability.
