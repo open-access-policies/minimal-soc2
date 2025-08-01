@@ -1,13 +1,8 @@
 ---
-title: Accepta**3.1 Softwa- **Allowlist (for High-Risk Software):** Software and browser extensions that require elevated privileges or access to sensitive data (e.g., Confidential data) must be explicitly approved and listed on the company's official **Software Allowlist**. Any software not on this list is implicitly denied.e Govern- **Security Review:** The **[Role- **Review and Removal:** The **[Role Title, e.g., IT Manager/Security Officer]** will periodically review installed browser extensions for compliance with this policy. Extensions that no longer meet security standards or are deemed unnecessary will be removed.Title, e.g., IT Manager/Security Officer]** will conduct a risk assessment of the requested software. The assessment will consider the software's function, the data it will access, its vendor's reputation, and any known vulnerabilities.
-    
-- **Approval or Denial:** Based on the risk assessment, the **[Role Title, e.g., IT Manager/Security Officer]** will either approve or deny the request. Approved software will be added to the Software Allowlist. The decision will be documented in the IT ticket.e Model**
-
-**[Company Name]** employs a hybrid governance model to manage software risk effectively:
-
-- **Allowlist (for High-Risk Software):** Software and browser extensions that require elevated privileges or access to sensitive data (e.g., Confidential data) must be explicitly approved and listed on the company's official **Software Allowlist**. Any software not on this list is implicitly denied.
-    
-- **Blocklist (for Prohibited Software):** Certain categories of software are explicitly prohibited and are maintained on a **Software Blocklist**.tware and Browser Extension Policy (OP-POL-005)
+title: Acceptable Software and Browser Extension Policy (OP-POL-005)
+parent: Operational Policies
+nav_order: 5
+---
 parent: Operational Policies
 nav_order: 5
 ---
@@ -28,7 +23,7 @@ All software installed on company endpoints shall be properly licensed, have a v
 
 [Company Name] employs a hybrid governance model to manage software risk effectively:
 
-- **Allowlist (for High-Risk Software):** Software and browser extensions that require elevated privileges or access to sensitive data (e.g., ePHI, Confidential data) must be explicitly approved and listed on the company's official **Software Allowlist**. Any software not on this list is implicitly denied.
+- **Allowlist (for High-Risk Software):** Software and browser extensions that require elevated privileges or access to sensitive data (e.g., Secret or Confidential data) must be explicitly approved and listed on the company's official **Software Allowlist**. Any software not on this list is implicitly denied.
     
 - **Blocklist (for Prohibited Software):** Certain categories of software are explicitly prohibited and are maintained on a **Software Blocklist**.
     

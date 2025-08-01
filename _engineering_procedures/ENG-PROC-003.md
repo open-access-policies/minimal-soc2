@@ -1,7 +1,5 @@
 ---
-title: Standard Change Man| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-6**               | SOC 2 Trust Services Criteria | CC6.7 - Data Transmission |nt Procedure (ENG-PROC-003)
+title: Standard Change Management Procedure (ENG-PROC-003)
 parent: Engineering Procedures
 nav_order: 3
 ---

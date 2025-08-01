@@ -1,0 +1,186 @@
+# --- Site Settings ---
+title: "SOC 2 ISMS Policies & Procedures"
+description: "Professional SOC 2 Compliance Framework for Organizations"
+# url: "https://open-access-policies.github.io"
+baseurl: "/minimal-soc2"
+
+# --- Hydejack Specific Settings ---
+hydejack:
+  theme: theme-base-08
+  sticky_sidebar: true 
+  accent_color: "#bababa" # Solid gray color for sidebar
+  invert_sidebar: false # Changed to false since we're using a light color
+  theme_color: "#bababa"
+  
+# Additional CSS files
+additional_css:
+  - /assets/css/main.css
+
+# --- Favicon Settings ---
+favicon: /assets/images/logo.png
+
+# --- Search ---
+search: true
+
+# --- Collections ---
+collections:
+  engineering_policies:
+    output: true
+    permalink: /:collection/:path/
+  engineering_procedures:
+    output: true
+    permalink: /:collection/:path/
+  operational_policies:
+    output: true
+    permalink: /:collection/:path/
+  operational_procedures:
+    output: true
+    permalink: /:collection/:path/
+  access_control_policies:
+    output: true
+    permalink: /:collection/:path/
+  access_control_procedures:
+    output: true
+    permalink: /:collection/:path/
+  resilience_policies:
+    output: true
+    permalink: /:collection/:path/
+  resilience_procedures:
+    output: true
+    permalink: /:collection/:path/
+  security_policies:
+    output: true
+    permalink: /:collection/:path/
+  security_procedures:
+    output: true
+    permalink: /:collection/:path/
+  isms_supplements:
+    output: true
+    permalink: /:collection/:path/
+
+# --- Navigation ---
+# This section defines the links that will appear in the sidebar.
+# This replaces the old `_data/navigation.yml` file.
+sidebar_links:
+  - title: Home
+    url: /
+  - title: Access Control
+    url: /access_control_policies/AC-POL-001
+  - title: Engineering
+    url: /engineering_policies/ENG-POL-001
+  - title: Operational
+    url: /operational_policies/OP-POL-001
+  - title: Resilience
+    url: /resilience_policies/RES-POL-001
+  - title: Security
+    url: /security_policies/SEC-POL-001
+  - title: ISMS Supplements
+    url: /isms_supplements/ISMS-SUP-001
+
+
+# --- Defaults ---
+# This is the critical fix. We are telling Jekyll to use the 'page'
+# layout for every document inside every one of your collections.
+# This will override any incorrect 'layout' settings in the individual files.
+defaults:
+  # Add this global default for all pages
+  - scope:
+      path: "" # This means all files
+    values:
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+      accent_color: "#bababa" # Solid gray color
+
+  - scope:
+      type: "engineering_policies"
+    values:
+      layout: "page"
+  - scope:
+      type: "engineering_procedures"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "operational_policies"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "operational_procedures"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "access_control_policies"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "access_control_procedures"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "resilience_policies"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "resilience_procedures"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "security_policies"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "security_procedures"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+  - scope:
+      type: "isms_supplements"
+    values:
+      layout: "page"
+      hide_title: true # Add this line to hide page titles
+      no_page_title: true # This removes the page title from the top of each page.
+
+# --- Build settings ---
+remote_theme: "hydecorp/hydejack@v9.2.1"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# --- Sass configuration ---
+sass:
+  sass_dir: _sass
+  style: expanded
+
+author:
+  name   : "Sean Todd"
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "A helpful CISO looking for his next challenge."
+  links  :
+    - label: "GitHub"
+      url: "https://github.com/descentintomael"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/seanmtodd/"
+  # --- Author Social Links ---
+  social:
+    github: open-access-policies
+    email: sean@openaccesspolicies.org
+    linkedin: seanmtodd
+  #   rss: true # To enable the RSS feed icon

@@ -1,7 +1,5 @@
 ---
-title: Information Securi| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**     |
-| --------------------- | ---------------------- | ------------------------- |
-| **1-5**               | SOC 2 Trust Services Criteria | CC1.2 - Management Oversight |ommittee Charter Procedure (SEC-PROC-001)
+title: Information Security Committee Charter Procedure (SEC-PROC-001)
 parent: Security Procedures
 nav_order: 1
 ---

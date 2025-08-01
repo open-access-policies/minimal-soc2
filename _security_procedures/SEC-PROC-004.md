@@ -1,7 +1,5 @@
 ---
-title: Risk Assessment Pro| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**           |
-| --------------------- | -------------------------- | ------------------------------- |
-| **1-6**               | SOC 2 Trust Services Criteria | CC1.2 - Management Oversight |re (SEC-PROC-004)
+title: Risk Assessment Procedure (SEC-PROC-004)
 parent: Security Procedures
 nav_order: 4
 ---

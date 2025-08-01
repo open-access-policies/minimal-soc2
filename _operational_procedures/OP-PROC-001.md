@@ -1,7 +1,5 @@
 ---
-title: Cryptographic Key Lifecycle Management Procedure (OP-| **Procedure Step(s)** | **Standard/Framework** | **Control Reference**        |
-| --------------------- | ---------------------- | ---------------------------- |
-| **4.1-4.5**           | SOC 2 Trust Services Criteria | CC6.7 - Data Transmission |001)
+title: Cryptographic Key Lifecycle Management Procedure (OP-PROC-001)
 parent: Operational Procedures
 nav_order: 1
 ---

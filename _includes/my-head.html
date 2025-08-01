@@ -1,0 +1,142 @@
+<style>
+/* Latin Modern Roman Font Faces */
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('/minimal-soc2/assets/fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('/minimal-soc2/assets/fonts/latinmodernroman_10bold_macroman/lmroman10-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('/minimal-soc2/assets/fonts/latinmodernroman_10italic_macroman/lmroman10-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('/minimal-soc2/assets/fonts/latinmodernroman_10bolditalic_macroman/lmroman10-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Apply Latin Modern to all text across the site */
+* {
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Override all text colors to black except sidebar */
+body {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+.content, .markdown-body, main, article, .post, .page {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+.content p, .content div, .content span, .content li, .content td, .content th, .content blockquote {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Hydejack theme specific overrides */
+.page, .post {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+.content {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Override any Hydejack text colors and fonts */
+#_main, .content-wrapper, .page-content {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+#_main *, .content-wrapper *, .page-content * {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Ensure headings are black and use Latin Modern */
+h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Apply to navigation and other elements */
+nav, .nav, .navigation {
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Apply to buttons and form elements */
+button, input, select, textarea {
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Sidebar styling with dark grey background, transparency, blur and rounded corners */
+.sidebar, .sidebar__header {
+    background: rgba(64, 64, 64, 0.4) !important; /* Dark grey with 40% transparency */
+    backdrop-filter: blur(10px) !important; /* Blur effect */
+    -webkit-backdrop-filter: blur(10px) !important; /* Safari support */
+    border-radius: 8px !important; /* Rounded corners */
+    color: white !important; /* White text for contrast */
+}
+
+.sidebar-sticky {
+    background: rgba(64, 64, 64, 0.4) !important; /* Dark grey with 40% transparency */
+    backdrop-filter: blur(10px) !important; /* Blur effect */
+    -webkit-backdrop-filter: blur(10px) !important; /* Safari support */
+    border-radius: 8px !important; /* Rounded corners */
+    color: white !important; /* White text for contrast */
+}
+
+/* Ensure all sidebar text is white */
+.sidebar, .sidebar * {
+    color: white !important;
+    font-family: 'Latin Modern Roman', serif !important;
+}
+
+/* Sidebar title and links styling */
+.sidebar-title, .sidebar-title h2 {
+    color: white !important;
+}
+
+.sidebar-about p {
+    color: white !important;
+}
+
+.sidebar-nav, .sidebar-nav * {
+    color: white !important;
+}
+
+.sidebar-social, .sidebar-social * {
+    color: white !important;
+}
+
+/* Ensure navigation links are visible */
+.sidebar-nav a, .sidebar-social a {
+    color: white !important;
+}
+
+.sidebar-nav a:hover, .sidebar-social a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+</style>

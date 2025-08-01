@@ -1,7 +1,5 @@
 ---
-title: Emergency Change M| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**        |
-| --------------------- | -------------------------- | ---------------------------- |
-| **1-5**               | SOC 2 Trust Services Criteria | CC6.7 - Data Transmission |ement Procedure (ENG-PROC-004)
+title: Emergency Change Management Procedure (ENG-PROC-004)
 parent: Engineering Procedures
 nav_order: 4
 ---

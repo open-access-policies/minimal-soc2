@@ -1,7 +1,7 @@
 # Copilot Instructions for Minimal SOC 2 Policy Repository
 
 ## Project Overview
-This is a **Jekyll-based documentation site** containing **SOC 2** compliant Information Security Management System (ISMS) policy and procedure templates for small companies (< 50 people). The content is structured as **template documents with placeholder values** that organizations customize for their specific needs. Documents use **auditor-grade language** while remaining accessible and practical for small team implementation with **minimal effort**.
+This is a **Jekyll-based documentation site** containing **SOC 2** compliant Information Security Management System (ISMS) policy and procedure templates for organizations seeking Trust Services Criteria certification. The content is structured as **template documents with placeholder values** that organizations customize for their specific needs. Documents use **auditor-grade language** while remaining accessible and practical for implementation with **professional confidence**.
 
 ## Architecture & Structure
 
@@ -33,7 +33,7 @@ nav_order: [number]
 - All customizable values use `**[Bracket Format]**` (e.g., `**[Company Name]**`, `**[Number, e.g., 90]**`)
 - Duration placeholders include examples: `**[Duration, e.g., 15 minutes]**`
 - Role placeholders specify context: `**[Role Title, e.g., Security Officer]**`
-- Small company focus: Default to minimal roles and simple processes
+- Professional focus: Default to streamlined roles and effective processes
 
 ### Standards Compliance Tables
 Every document maps requirements to **SOC 2 Trust Services Criteria** with practical implementation guidance:
@@ -45,7 +45,7 @@ Every document maps requirements to **SOC 2 Trust Services Criteria** with pract
 ```
 
 ### Procedure Step Tables
-All procedures use consistent tabular format optimized for small teams:
+All procedures use consistent tabular format optimized for efficient implementation:
 ```markdown
 | **Step** | **Who** | **What** |
 | -------- | ------- | -------- |
@@ -58,7 +58,7 @@ All procedures use consistent tabular format optimized for small teams:
 1. Copy appropriate template from `/Templates/`
 2. Follow naming convention: `[PREFIX]-[TYPE]-[###].md`
 3. Update frontmatter with correct parent collection
-4. Replace template placeholders with small company-specific content
+4. Replace template placeholders with organization-specific content
 5. Add SOC 2 compliance mappings in standards table
 6. Focus on minimal viable controls that meet audit requirements
 
@@ -119,9 +119,9 @@ Located in `_includes/my-head.html` and `/assets/fonts/`:
 - **Trust Services Categories**: Security (all common criteria)
 - **Control References**: Use specific format `CC6.1 - Logical Access Security` with descriptive titles
 - **Minimal Viable Controls**: Focus on essential controls that small companies can realistically implement
-- **Auditor Language**: Documents written for SOC 2 audit readiness with practical small team implementation
+- **Auditor Language**: Documents written for SOC 2 audit readiness with practical implementation approach
 
-### Small Company Optimization
+### Professional Implementation Approach
 - **Role Consolidation**: Assume roles may be combined (e.g., IT Manager = Security Officer)
 - **Process Simplification**: Streamlined procedures suitable for teams < 50 people
 - **Tool Integration**: Leverage common small business tools (Google Workspace, Microsoft 365, etc.)
@@ -132,7 +132,7 @@ Located in `_includes/my-head.html` and `/assets/fonts/`:
 - **Accessibility**: Complex compliance concepts explained clearly for all organizational levels
 - **Precision**: Use specific SOC 2 control citations (e.g., "CC6.1 - Logical Access Security")
 - **Authority**: Declarative statements using "shall" for mandatory requirements
-- **Practicality**: Include implementation guidance suitable for small teams
+- **Practicality**: Include implementation guidance suitable for efficient operations
 - **Examples**: 
   - Compliant: "Administrative access shall be granted on a limited, as-needed basis"
   - Practical: "For accounts with elevated privileges (e.g., admin, root), document business justification and review quarterly"
@@ -155,4 +155,4 @@ Located in `_includes/my-head.html` and `/assets/fonts/`:
 - **Navigation**: Automatic via frontmatter `parent` and `nav_order` properties
 - **Styling**: Custom SCSS in `_sass/` overrides default theme
 
-When editing documents, preserve the formal compliance language while ensuring controls are practical for small company implementation. Focus on the minimum viable set of policies and procedures needed for SOC 2 compliance.
+When editing documents, preserve the formal compliance language while ensuring controls are practical for organizational implementation. Focus on the comprehensive set of policies and procedures needed for SOC 2 compliance.

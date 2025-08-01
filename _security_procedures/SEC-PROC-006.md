@@ -1,7 +1,5 @@
 ---
-title: Facility Access Ma| **Procedure Step(s)** | **Standard/Framework**     | **Control Reference**          |
-| --------------------- | -------------------------- | ------------------------------ |
-| **1-5**               | SOC 2 Trust Services Criteria | CC6.4 - Physical Access |ment Procedure (SEC-PROC-006)
+title: Facility Access Management Procedure (SEC-PROC-006)
 parent: Security Procedures
 nav_order: 6
 ---

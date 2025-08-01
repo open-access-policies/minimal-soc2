@@ -1,0 +1,161 @@
+
+// Override sidebar styling - new dark grey with transparency and blur
+
+// Force sidebar to be visible - override any opacity settings
+.sidebar-sticky {
+  opacity: 1 !important;
+}
+
+// Also ensure the entire sidebar is visible
+.sidebar, .sidebar__header {
+  opacity: 1 !important;
+}
+
+// Make sure navigation is visible too
+.sidebar-nav {
+  opacity: 1 !important;
+}
+
+// Ensure sidebar text is visible over the background
+.sidebar, .sidebar * {
+  color: white !important;
+  font-family: 'Latin Modern Roman', serif !important;
+}
+
+// Keep social icons working properly
+.sidebar-social, .sidebar-social * {
+  color: white !important;
+}
+
+// Exception for icon fonts in sidebar - this is critical!
+.sidebar [class^="icon-"], 
+.sidebar [class*=" icon-"],
+.sidebar-social [class^="icon-"], 
+.sidebar-social [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+}
+
+.sidebar .sidebar-sticky {
+  background: rgba(0, 0, 0, 0.4) !important;
+  padding: 1rem !important;
+  border-radius: 8px !important;
+  margin: 1rem !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+$font-serif: "Latin Modern Roman", "Merriweather", serif;
+$font-sans : "Latin Modern Roman", "Open Sans", sans-serif;
+$base-color: #000;
+$accent    : #bababa;
+
+// Global font override but preserve icon fonts
+* {
+  font-family: 'Latin Modern Roman', serif !important;
+}
+
+// Exception for icon fonts - must be more specific than the global override
+[class^="icon-"], 
+[class*=" icon-"],
+.icon-github,
+.icon-linkedin,
+.icon-email,
+.icon-rss {
+  font-family: 'icomoon' !important;
+}
+
+body {
+  font-family: $font-serif !important;
+  color: $base-color !important;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+// Force all text content to be black (except sidebar)
+.content, .markdown-body, main, article, .post, .page {
+  color: #000 !important;
+  
+  p, div, span, li, td, th, blockquote {
+    color: #000 !important;
+  }
+}
+
+// Hydejack theme specific overrides
+.page, .post {
+  color: #000 !important;
+}
+
+.content {
+  color: #000 !important;
+}
+
+// Override any Hydejack text colors
+#_main, .content-wrapper, .page-content {
+  color: #000 !important;
+  
+  * {
+    color: inherit !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-serif !important;
+  letter-spacing: 0.5px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #000 !important;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  &:hover { 
+    color: darken($accent, 30%);
+    text-decoration: underline;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  th, td {
+    border: 1px solid lighten($base-color, 60%);
+    padding: 0.5rem 1rem;
+  }
+  tr:nth-child(even) {
+    background: lighten($accent, 50%);
+  }
+}
+
+pre, code {
+  font-family: Menlo, monospace;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.5rem;
+  overflow-x: auto;
+}
+
+.callout {
+  border-left: 4px solid $accent;
+  background: lighten($accent, 60%);
+  padding: 1rem;
+  margin: 2rem 0;
+  &.warning { border-color: #e08e0b; background: #fff4e5; }
+  &.info    { border-color: #31708f; background: #d9edf7; }
+}
+
+@media print {
+  body {
+    max-width: 100%;
+    padding: 0;
+  }
+  .sidebar, .sidebar__header, nav, .footer {
+    display: none !important;
+  }
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+  }
+}
