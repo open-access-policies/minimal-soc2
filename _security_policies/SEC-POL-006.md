@@ -5,7 +5,7 @@ nav_order: 6
 ---
 ### 1. Objective
 
-The objective of this policy is to establish physical security requirements for **[Company Name]**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality, integrity, and availability of information assets in compliance with SOC 2 requirements. Given **[Company Name]**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.
+The objective of this policy is to establish physical security requirements for **[Company Name]**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality and integrity of information assets in compliance with SOC 2 requirements. Given **[Company Name]**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.
 
 ### 2. Scope
 
@@ -89,7 +89,6 @@ This policy is designed to comply with and support the following industry standa
 |**Policy Section**|**Standard/Framework**|**Control Reference**|
 |---|---|---|
 |**3.1, 3.2**|SOC 2 Trust Services Criteria|CC6.4 - Physical Access Controls|
-|**3.5**|SOC 2 Trust Services Criteria|A1.1 - System Availability|
 |**3.5**|SOC 2 Trust Services Criteria|CC9.1 - Vendor Management|
 
 ### 5. Definitions

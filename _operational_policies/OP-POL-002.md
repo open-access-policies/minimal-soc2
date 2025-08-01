@@ -5,7 +5,7 @@ nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish security requirements for mobile devices used to access **[Company Name]**'s information systems and data, including both company-owned devices and personal devices used for business purposes (Bring Your Own Device - BYOD). This policy ensures that mobile device usage maintains the confidentiality, integrity, and availability of company information while supporting workforce mobility and productivity in compliance with SOC 2 requirements.
+The objective of this policy is to establish security requirements for mobile devices used to access **[Company Name]**'s information systems and data, including both company-owned devices and personal devices used for business purposes (Bring Your Own Device - BYOD). This policy ensures that mobile device usage maintains the confidentiality and integrity of company information while supporting workforce mobility and productivity in compliance with SOC 2 requirements.
 
 ### 2. Scope
 

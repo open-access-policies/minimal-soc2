@@ -13,7 +13,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 ### 3. Policy
 
-All **[Company Name]** information shall be classified according to its sensitivity level and handled in accordance with established security controls that protect confidentiality, integrity, and availability.
+All **[Company Name]** information shall be classified according to its sensitivity level and handled in accordance with established security controls that protect confidentiality and integrity.
 
 **3.1 Information Classification Framework**
 

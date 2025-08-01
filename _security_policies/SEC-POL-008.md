@@ -8,7 +8,7 @@ nav_order: 8
 
 ## 1. Objective
 
-This policy establishes a systematic and continuous process for identifying, prioritizing, remediating, and verifying security vulnerabilities across all of **[Company Name]**'s information assets. The policy ensures that risks to the confidentiality, integrity, and availability of data are managed in a timely and effective manner.
+This policy establishes a systematic and continuous process for identifying, prioritizing, remediating, and verifying security vulnerabilities across all of **[Company Name]**'s information assets. The policy ensures that risks to the confidentiality and integrity of data are managed in a timely and effective manner.
 
 ## 2. Scope
 

@@ -5,7 +5,7 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish security requirements for the design, implementation, operation, and maintenance of **[Company Name]**'s IT infrastructure. This policy ensures that all infrastructure components including cloud services, networks, servers, databases, and supporting systems are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of information systems while maintaining SOC 2 compliance.
+The objective of this policy is to establish security requirements for the design, implementation, operation, and maintenance of **[Company Name]**'s IT infrastructure. This policy ensures that all infrastructure components including cloud services, networks, servers, databases, and supporting systems are configured and managed with appropriate security controls to protect the confidentiality and integrity of information systems while maintaining SOC 2 compliance.
 
 ### 2. Scope
 
@@ -94,7 +94,7 @@ This policy is designed to comply with and support the following industry standa
 |**3.1, 3.3**|SOC 2 Trust Services Criteria|CC6.1 - Logical Access Security|
 |**3.2**|SOC 2 Trust Services Criteria|CC6.6 - Network Security|
 |**3.4**|SOC 2 Trust Services Criteria|CC6.7 - Data Transmission|
-|**3.6**|SOC 2 Trust Services Criteria|A1.1 - System Availability|
+|**3.6**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
 |**3.7**|SOC 2 Trust Services Criteria|CC7.1 - System Monitoring|
 |**3.5**|SOC 2 Trust Services Criteria|CC8.1 - Change Management|
 

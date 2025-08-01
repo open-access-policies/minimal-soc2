@@ -8,7 +8,7 @@ nav_order: 1
 
 ## 1. Objective
 
-This policy establishes **[Company Name]**'s Information Security Management System (ISMS) to achieve SOC 2 compliance. This policy defines comprehensive security controls to protect the confidentiality, integrity, and availability of company information assets while maintaining practical implementation.
+This policy establishes **[Company Name]**'s Information Security Management System (ISMS) to achieve SOC 2 compliance. This policy defines comprehensive security controls to protect the confidentiality and integrity of company information assets while maintaining practical implementation.
 
 ## 2. Scope
 
@@ -92,7 +92,7 @@ Company and customer data is protected through comprehensive data protection mea
 
 - Data retention and disposal procedures ensure proper data lifecycle management.
 
-- Regular backups are performed and tested to ensure data availability.
+- Regular backups are performed and tested to ensure data recoverability.
 
 **3.7 Business Continuity**
 
