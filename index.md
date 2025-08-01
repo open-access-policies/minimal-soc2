@@ -5,14 +5,6 @@ title: "SOC 2 Compliance Policies & Procedures"
 permalink: /
 ---
 
-Organizations are solely responsible for ensuring their compliance programs meet all applicable SOC 2 requirements and regulatory obligations. The authors assume no liability for any damages, losses, or compliance issues that may arise from use of this framework. **Always consult with qualified SOC 2 auditors and compliance professionals for advice specific to your organization.**
-
-This comprehensive SOC 2 compliance framework provides audit-ready policies and procedures designed specifically for SOC 2 compliance. The documentation establishes a mature Information Security Management System (ISMS) suitable for organizations seeking Trust Services Criteria certification.
-
-## Framework Overview
-
-The framework implements all SOC 2 Trust Services Criteria Common Criteria (CC1-CC8). Each policy establishes security requirements while corresponding procedures provide detailed implementation guidance.
-
 ## Table of Contents
 
 ### Access Control
@@ -110,7 +102,6 @@ The framework implements all SOC 2 Trust Services Criteria Common Criteria (CC1-
 
 * [Schedule of Security Procedures (ISMS-SUP-001)](./isms_supplements/ISMS-SUP-001)
 * [ISMS High-Level RACI Chart (ISMS-SUP-002)](./isms_supplements/ISMS-SUP-002)
-* [12-Month ISMS Implementation Roadmap (ISMS-SUP-003)](./isms_supplements/ISMS-SUP-003)
 
 ## About This Framework
 
@@ -131,8 +122,7 @@ Start by reviewing the Information Security Policy (SEC-POL-001) to understand t
 
 ## SOC 2 Trust Services Coverage
 
-This framework provides complete coverage of:
-- **Common Criteria (CC1-CC8)**: Control Environment, Communication, Risk Management, Monitoring, Control Activities, Logical Access, System Operations, Change Management
+This framework provides complete coverage of the **Common Criteria (CC1-CC8)**: Control Environment, Communication, Risk Management, Monitoring, Control Activities, Logical Access, System Operations, Change Management.
 
 ## Download Complete Documentation
 
