@@ -146,6 +146,10 @@ pre, code {
   &.info    { border-color: #31708f; background: #d9edf7; }
 }
 
+.navbar {
+  display: none !important; // Hide the navbar
+}
+
 @media print {
   body {
     max-width: 100%;
