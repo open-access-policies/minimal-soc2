@@ -1,0 +1,29 @@
+/* Latin Modern Roman Font Definitions */
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/latinmodernroman_10bold_macroman/lmroman10-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/latinmodernroman_10italic_macroman/lmroman10-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('../fonts/latinmodernroman_10bolditalic_macroman/lmroman10-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

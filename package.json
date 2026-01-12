@@ -1,0 +1,28 @@
+{
+  "name": "minimal-soc2",
+  "version": "1.0.0",
+  "description": "This repository contains a comprehensive set of policies and procedures for building a professional Information Security Management System (ISMS) specifically designed for **SOC 2 Trust Services Criteria** compliance. These documents provide audit-ready templates suitable for organizations seeking SOC 2 certification.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-access-policies/minimal-soc2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/open-access-policies/minimal-soc2/issues"
+  },
+  "homepage": "https://github.com/open-access-policies/minimal-soc2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "typescript": "^5.9.3"
+  }
+}

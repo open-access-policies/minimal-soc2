@@ -36,3 +36,11 @@ Thumbs.db
 Gemfile.lock
 Gemfile
 private/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Playwright test artifacts
+test-results/
+playwright-report/

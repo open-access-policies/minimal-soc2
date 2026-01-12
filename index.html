@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SOC 2 Compliance Policies and Procedures - Open Access Policies">
+  <title>Minimal SOC2 - Open Access Policies</title>
+  <link rel="icon" type="image/png" href="https://openaccesspolicies.org/assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/latin-modern-fonts.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<a href="#main" class="skip-nav">Skip to main content</a>
+
+<header class="site-header">
+  <div class="header-container">
+    <div class="header-left">
+      <a href="https://openaccesspolicies.org" class="site-title">Open Access Policies</a>
+      <a href="#" class="policy-set-title">Minimal SOC2</a>
+    </div>
+    <nav class="site-nav" aria-label="Main">
+      <a href="https://openaccesspolicies.org/policies.html">All Policies</a>
+      <a href="https://openaccesspolicies.org/start.html">Get Started</a>
+      <a href="https://openaccesspolicies.org/about.html">About</a>
+    </nav>
+    <button class="mobile-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="layout-wrapper">
+  <aside class="sidebar" id="sidebar">
+    <nav class="sidebar-nav" aria-label="Policy navigation">
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>Access Control</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li class="nav-category">Policies</li>
+          <li><a href="#access_control_policies/AC-POL-001">Access Control Policy</a></li>
+          <li><a href="#access_control_policies/AC-POL-002">Acceptable Use Policy</a></li>
+          <li class="nav-category">Procedures</li>
+          <li><a href="#access_control_procedures/AC-PROC-001">AUP Violation Investigation</a></li>
+          <li><a href="#access_control_procedures/AC-PROC-002">BYOD Onboarding</a></li>
+          <li><a href="#access_control_procedures/AC-PROC-003">User Access Review</a></li>
+          <li><a href="#access_control_procedures/AC-PROC-004">Access Control Management</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>Engineering</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li class="nav-category">Policies</li>
+          <li><a href="#engineering_policies/ENG-POL-001">Secure Software Development</a></li>
+          <li><a href="#engineering_policies/ENG-POL-002">Change Control</a></li>
+          <li><a href="#engineering_policies/ENG-POL-003">Infrastructure Security</a></li>
+          <li class="nav-category">Procedures</li>
+          <li><a href="#engineering_procedures/ENG-PROC-001">App Security Testing</a></li>
+          <li><a href="#engineering_procedures/ENG-PROC-002">Third-Party Component Review</a></li>
+          <li><a href="#engineering_procedures/ENG-PROC-003">Standard Change Management</a></li>
+          <li><a href="#engineering_procedures/ENG-PROC-004">Emergency Change Management</a></li>
+          <li><a href="#engineering_procedures/ENG-PROC-005">System Hardening</a></li>
+          <li><a href="#engineering_procedures/ENG-PROC-006">Privileged Access Review</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>Operational</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li class="nav-category">Policies</li>
+          <li><a href="#operational_policies/OP-POL-001">Encryption & Key Management</a></li>
+          <li><a href="#operational_policies/OP-POL-002">Mobile Device Policy</a></li>
+          <li><a href="#operational_policies/OP-POL-003">Data Retention & Disposal</a></li>
+          <li><a href="#operational_policies/OP-POL-004">HR Security</a></li>
+          <li class="nav-category">Procedures</li>
+          <li><a href="#operational_procedures/OP-PROC-001">Key Lifecycle Management</a></li>
+          <li><a href="#operational_procedures/OP-PROC-002">Mobile Device Onboarding</a></li>
+          <li><a href="#operational_procedures/OP-PROC-003">Lost Device Response</a></li>
+          <li><a href="#operational_procedures/OP-PROC-004">Secure Media Disposal</a></li>
+          <li><a href="#operational_procedures/OP-PROC-005">Legal Hold</a></li>
+          <li><a href="#operational_procedures/OP-PROC-006">Background Checks</a></li>
+          <li><a href="#operational_procedures/OP-PROC-007">Onboarding/Offboarding</a></li>
+          <li><a href="#operational_procedures/OP-PROC-008">Policy Sanctions</a></li>
+          <li><a href="#operational_procedures/OP-PROC-009">Software Approval</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>Resilience</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li class="nav-category">Policies</li>
+          <li><a href="#resilience_policies/RES-POL-001">Incident Response</a></li>
+          <li class="nav-category">Procedures</li>
+          <li><a href="#resilience_procedures/RES-PROC-001">Incident Response Plan</a></li>
+          <li><a href="#resilience_procedures/RES-PROC-002">Data Breach Assessment</a></li>
+          <li><a href="#resilience_procedures/RES-PROC-003">Post-Incident Review</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>Security</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li class="nav-category">Policies</li>
+          <li><a href="#security_policies/SEC-POL-001">Information Security</a></li>
+          <li><a href="#security_policies/SEC-POL-003">Risk Management</a></li>
+          <li><a href="#security_policies/SEC-POL-004">Data Classification</a></li>
+          <li><a href="#security_policies/SEC-POL-005">Vendor Risk Management</a></li>
+          <li><a href="#security_policies/SEC-POL-006">Physical Security</a></li>
+          <li><a href="#security_policies/SEC-POL-008">Vulnerability Management</a></li>
+          <li class="nav-category">Procedures</li>
+          <li><a href="#security_procedures/SEC-PROC-002">Internal Audit</a></li>
+          <li><a href="#security_procedures/SEC-PROC-003">Policy Exception</a></li>
+          <li><a href="#security_procedures/SEC-PROC-004">Risk Assessment</a></li>
+          <li><a href="#security_procedures/SEC-PROC-005">Vendor Onboarding</a></li>
+          <li><a href="#security_procedures/SEC-PROC-006">Facility Access</a></li>
+          <li><a href="#security_procedures/SEC-PROC-008">Vulnerability Management</a></li>
+          <li><a href="#security_procedures/SEC-PROC-009">Vulnerability Exception</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <button class="nav-section-toggle" aria-expanded="false">
+          <span>ISMS Supplements</span>
+          <svg class="chevron" viewBox="0 0 24 24" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="nav-section-items collapsed">
+          <li><a href="#isms_supplements/ISMS-SUP-001">Security Procedures Schedule</a></li>
+        </ul>
+      </div>
+    </nav>
+  </aside>
+
+  <main id="main" class="main-content">
+    <div class="content-container">
+      <article id="content" class="policy-content">
+        <!-- Content loaded dynamically -->
+      </article>
+    </div>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Open Access Policies. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>.</p>
+  <div class="footer-links">
+    <a href="https://github.com/open-access-policies/minimal-soc2">GitHub</a>
+    <a href="https://openaccesspolicies.org/about.html">About</a>
+  </div>
+</footer>
+
+<script>
+// Configuration
+const CONFIG = {
+  defaultDoc: 'home',
+  homeContent: `
+# SOC 2 Compliance Policies & Procedures
+
+This framework provides a complete Information Security Management System (ISMS) designed specifically for SOC 2 Trust Services Criteria compliance.
+
+## Getting Started
+
+Use the sidebar to navigate through policies and procedures organized by domain:
+
+- **Access Control** - User access, authentication, and acceptable use
+- **Engineering** - Secure development, change control, infrastructure
+- **Operational** - Encryption, mobile devices, data retention, HR security
+- **Resilience** - Incident response and business continuity
+- **Security** - Risk management, vendor security, vulnerability management
+- **ISMS Supplements** - Implementation roadmaps and schedules
+
+## About This Framework
+
+The documentation establishes security governance, risk management, access controls, system operations, and incident response capabilities that auditors expect to see in mature organizations.
+
+- **Policies** establish security requirements and management commitment
+- **Procedures** provide detailed implementation guidance
+- **Control Mapping** ensures complete SOC 2 Trust Services Criteria coverage
+
+## SOC 2 Trust Services Coverage
+
+This framework provides complete coverage of the **Common Criteria (CC1-CC8)**:
+- Control Environment
+- Communication & Information
+- Risk Assessment
+- Monitoring Activities
+- Control Activities
+- Logical & Physical Access
+- System Operations
+- Change Management
+
+---
+
+*Licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/). Maintained by [Open Access Policies](https://github.com/open-access-policies).*
+  `
+};
+
+// State
+let currentDoc = null;
+
+// Parse markdown frontmatter and content
+function parseFrontmatter(text) {
+  const match = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  if (match) {
+    const frontmatter = {};
+    match[1].split('\n').forEach(line => {
+      const [key, ...valueParts] = line.split(':');
+      if (key && valueParts.length) {
+        frontmatter[key.trim()] = valueParts.join(':').trim().replace(/^["']|["']$/g, '');
+      }
+    });
+    return { frontmatter, content: match[2] };
+  }
+  return { frontmatter: {}, content: text };
+}
+
+// Load and render markdown
+async function loadDocument(path) {
+  const contentEl = document.getElementById('content');
+
+  if (!path || path === 'home') {
+    contentEl.innerHTML = marked.parse(CONFIG.homeContent);
+    document.title = 'Minimal SOC2 - Open Access Policies';
+    updateActiveNav(null);
+    return;
+  }
+
+  try {
+    // Construct file path - files are in _collection/filename.md
+    const parts = path.split('/');
+    const collection = parts[0];
+    const filename = parts[1];
+    const filePath = `_${collection}/${filename}.md`;
+
+    const response = await fetch(filePath);
+    if (!response.ok) throw new Error('Document not found');
+
+    const text = await response.text();
+    const { frontmatter, content } = parseFrontmatter(text);
+
+    // Get title from frontmatter
+    const title = frontmatter.title || filename;
+
+    // Render markdown content
+    const renderedContent = marked.parse(content);
+
+    // Only add H1 from frontmatter if content doesn't already start with one
+    const hasH1 = content.trim().startsWith('# ');
+    contentEl.innerHTML = hasH1 ? renderedContent : `<h1>${title}</h1>` + renderedContent;
+    document.title = `${title} - Minimal SOC2`;
+
+    // Update active nav state
+    updateActiveNav(path);
+
+    // Scroll to top
+    contentEl.scrollTop = 0;
+
+  } catch (error) {
+    contentEl.innerHTML = `
+      <div class="error-message">
+        <h2>Document Not Found</h2>
+        <p>The requested document could not be loaded.</p>
+        <p><a href="#">Return to home</a></p>
+      </div>
+    `;
+  }
+}
+
+// Update active navigation state
+function updateActiveNav(path) {
+  // Remove all active states
+  document.querySelectorAll('.sidebar-nav a').forEach(a => a.classList.remove('active'));
+
+  if (path) {
+    // Find and activate the matching link
+    const activeLink = document.querySelector(`.sidebar-nav a[href="#${path}"]`);
+    if (activeLink) {
+      activeLink.classList.add('active');
+
+      // Expand parent section if collapsed
+      const section = activeLink.closest('.nav-section');
+      if (section) {
+        const toggle = section.querySelector('.nav-section-toggle');
+        const items = section.querySelector('.nav-section-items');
+        if (items.classList.contains('collapsed')) {
+          toggle.setAttribute('aria-expanded', 'true');
+          items.classList.remove('collapsed');
+        }
+      }
+    }
+  }
+}
+
+// Toggle navigation sections
+function setupNavToggles() {
+  document.querySelectorAll('.nav-section-toggle').forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !expanded);
+      const items = toggle.nextElementSibling;
+      items.classList.toggle('collapsed');
+    });
+  });
+}
+
+// Mobile menu toggle
+function setupMobileMenu() {
+  const menuToggle = document.querySelector('.mobile-menu-toggle');
+  const sidebar = document.getElementById('sidebar');
+
+  menuToggle?.addEventListener('click', () => {
+    const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', !expanded);
+    sidebar.classList.toggle('open');
+    document.body.classList.toggle('sidebar-open');
+  });
+
+  // Close sidebar when clicking on a link (mobile)
+  sidebar?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        menuToggle?.setAttribute('aria-expanded', 'false');
+        sidebar.classList.remove('open');
+        document.body.classList.remove('sidebar-open');
+      }
+    });
+  });
+}
+
+// Handle hash changes
+function handleHashChange() {
+  const hash = window.location.hash.slice(1);
+  loadDocument(hash || 'home');
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+  setupNavToggles();
+  setupMobileMenu();
+  handleHashChange();
+});
+
+window.addEventListener('hashchange', handleHashChange);
+</script>
+
+</body>
+</html>

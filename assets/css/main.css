@@ -1,0 +1,621 @@
+/* Main CSS - Minimal SOC2 Policy Site
+   Exact match to Open Access Policies main site styling */
+
+/* ============================================
+   ROOT VARIABLES - Matches main site exactly
+   ============================================ */
+:root {
+  --color-primary: #2c3e50;
+  --color-secondary: #3498db;
+  --color-accent: #27ae60;
+  --color-text: #333;
+  --color-text-muted: #666;
+  --color-border: #e0e0e0;
+  --color-bg-light: #f8f9fa;
+  --color-bg-white: #fff;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --line-height-normal: 1.6;
+  --touch-target-min: 44px;
+  --border-radius: 8px;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --sidebar-width: 280px;
+}
+
+/* ============================================
+   RESET & BASE - Matches main site
+   ============================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Latin Modern Roman', Georgia, serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+/* ============================================
+   ACCESSIBILITY - Skip Nav (from main site)
+   ============================================ */
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--spacing-sm) var(--spacing-md);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  z-index: 10000;
+  transition: top var(--transition-fast);
+}
+
+.skip-nav:focus {
+  top: var(--spacing-sm);
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+*:focus {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   HEADER - Exact match to main site
+   ============================================ */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-decoration: none;
+  padding-right: 1rem;
+  border-right: 1px solid var(--color-border);
+}
+
+.site-title:hover {
+  color: var(--color-secondary);
+}
+
+.policy-set-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-decoration: none;
+  padding-left: 1rem;
+}
+
+.policy-set-title:hover {
+  color: var(--color-secondary);
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  color: var(--color-secondary);
+}
+
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: var(--spacing-sm);
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mobile-menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  transition: all var(--transition-fast);
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+}
+
+/* ============================================
+   LAYOUT - Documentation style with sidebar
+   ============================================ */
+.layout-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--color-bg-light);
+  border-right: 1px solid var(--color-border);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  padding-top: 73px; /* Account for sticky header */
+  z-index: 50;
+}
+
+.sidebar-nav {
+  padding: 0.75rem 0;
+}
+
+/* Nav Sections */
+.nav-section {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.nav-section:last-child {
+  border-bottom: none;
+}
+
+.nav-section-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: none;
+  border: none;
+  font-family: 'Latin Modern Roman', Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s ease;
+}
+
+.nav-section-toggle:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+.nav-section-toggle .chevron {
+  transition: transform var(--transition-fast);
+}
+
+.nav-section-toggle[aria-expanded="false"] .chevron {
+  transform: rotate(-90deg);
+}
+
+.nav-section-items {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.5rem 0;
+  overflow: hidden;
+}
+
+.nav-section-items.collapsed {
+  display: none;
+}
+
+.nav-section-items li {
+  margin: 0;
+}
+
+.nav-category {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  padding: 0.75rem 1.5rem 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.nav-section-items a {
+  display: block;
+  padding: 0.4rem 1.5rem 0.4rem 2rem;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.nav-section-items a:hover {
+  background: rgba(0,0,0,0.03);
+  color: var(--color-secondary);
+}
+
+.nav-section-items a.active {
+  background: rgba(52, 152, 219, 0.1);
+  color: var(--color-secondary);
+  border-left-color: var(--color-secondary);
+  font-weight: 500;
+}
+
+/* Mobile sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform var(--transition-fast);
+    width: 85%;
+    max-width: 320px;
+    padding-top: 60px;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  body.sidebar-open::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 40;
+  }
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+.main-content {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+.content-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ============================================
+   POLICY CONTENT TYPOGRAPHY - Match main site
+   ============================================ */
+.policy-content {
+  font-family: 'Latin Modern Roman', Georgia, serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.policy-content h1 {
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  line-height: 1.2;
+}
+
+.policy-content h2 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin: 2.5rem 0 1rem;
+  line-height: 1.3;
+}
+
+.policy-content h3 {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  margin: 2rem 0 0.75rem;
+  line-height: 1.3;
+}
+
+.policy-content h4 {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin: 1.5rem 0 0.5rem;
+  line-height: 1.4;
+}
+
+.policy-content p {
+  margin: 0 0 1rem;
+  line-height: 1.7;
+}
+
+.policy-content ul,
+.policy-content ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.policy-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.policy-content a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.policy-content a:hover {
+  text-decoration: underline;
+}
+
+.policy-content strong {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.policy-content code {
+  background: var(--color-bg-light);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: 'SF Mono', Monaco, Consolas, monospace;
+}
+
+.policy-content pre {
+  background: var(--color-bg-light);
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+}
+
+.policy-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.policy-content blockquote {
+  border-left: 4px solid var(--color-secondary);
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: var(--color-bg-light);
+  color: var(--color-text-muted);
+}
+
+.policy-content hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2rem 0;
+}
+
+/* ============================================
+   TABLES - Exact match to main site
+   ============================================ */
+.policy-content table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.policy-content th,
+.policy-content td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.policy-content th {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Ensure all text inside th is white, including bold/strong */
+.policy-content th,
+.policy-content th strong,
+.policy-content th b,
+.policy-content th * {
+  color: #fff;
+}
+
+.policy-content tr:last-child td {
+  border-bottom: none;
+}
+
+.policy-content tr:hover {
+  background: var(--color-bg-light);
+}
+
+/* Responsive tables */
+@media (max-width: 768px) {
+  .policy-content table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .policy-content th,
+  .policy-content td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* ============================================
+   BADGES - Exact match to main site
+   ============================================ */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  background: var(--color-bg-light);
+  color: var(--color-text-muted);
+}
+
+.badge-soc2 {
+  background: #e8f4f8;
+  color: #2980b9;
+}
+
+.badge-hipaa {
+  background: #e8f8e8;
+  color: #27ae60;
+}
+
+.badge-hitrust {
+  background: #f8e8f4;
+  color: #8e44ad;
+}
+
+.badge-gdpr {
+  background: #f8f4e8;
+  color: #d35400;
+}
+
+/* ============================================
+   ERROR MESSAGE
+   ============================================ */
+.error-message {
+  text-align: center;
+  padding: 3rem;
+}
+
+.error-message h2 {
+  color: var(--color-primary);
+}
+
+.error-message a {
+  color: var(--color-secondary);
+}
+
+/* ============================================
+   FOOTER - Exact match to main site
+   ============================================ */
+.site-footer {
+  background: var(--color-bg-light);
+  border-top: 1px solid var(--color-border);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-left: var(--sidebar-width);
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    margin-left: 0;
+  }
+}
+
+.site-footer a {
+  color: var(--color-text-muted);
+}
+
+.site-footer a:hover {
+  color: var(--color-secondary);
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.75rem;
+}
+
+/* ============================================
+   TOUCH TARGETS - Mobile Friendly (from main)
+   ============================================ */
+a,
+button,
+input[type="submit"],
+input[type="button"],
+.btn,
+.button {
+  min-height: var(--touch-target-min);
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  .skip-nav,
+  .site-header,
+  .sidebar,
+  .site-footer,
+  .mobile-menu-toggle {
+    display: none;
+  }
+
+  .layout-wrapper {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+}
