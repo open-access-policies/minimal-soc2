@@ -4,6 +4,20 @@ description: "Professional SOC 2 Compliance Framework for Organizations"
 # url: "https://open-access-policies.github.io"
 baseurl: "/minimal-soc2"
 
+# --- Include underscore directories for raw markdown access ---
+include:
+  - _access_control_policies
+  - _access_control_procedures
+  - _engineering_policies
+  - _engineering_procedures
+  - _operational_policies
+  - _operational_procedures
+  - _resilience_policies
+  - _resilience_procedures
+  - _security_policies
+  - _security_procedures
+  - _isms_supplements
+
 # --- Hydejack Specific Settings ---
 hydejack:
   theme: theme-base-08
