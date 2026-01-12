@@ -1,8 +1,3 @@
----
-title: Vulnerability Management Procedure (SEC-PROC-008)
-parent: Security Procedures
-nav_order: 8
----
 ### 1. Purpose
 
 To describe the workflow for identifying, prioritizing, remediating, and verifying vulnerabilities across the organization's systems and applications.

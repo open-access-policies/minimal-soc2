@@ -1,8 +1,3 @@
----
-title: Physical Security Policy (SEC-POL-006)
-parent: Security Policies
-nav_order: 6
----
 ### 1. Objective
 
 The objective of this policy is to establish physical security requirements for **[Company Name]**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality and integrity of information assets in compliance with SOC 2 requirements. Given **[Company Name]**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.

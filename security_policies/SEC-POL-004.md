@@ -1,8 +1,3 @@
----
-title: Data Classification and Handling Policy (SEC-POL-004)
-parent: Security Policies
-nav_order: 4
----
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive framework for classifying, handling, and protecting **[Company Name]**'s information assets based on their sensitivity and business value. This policy ensures that appropriate security controls are applied consistently across all information types to meet SOC 2 requirements and protect against unauthorized disclosure.

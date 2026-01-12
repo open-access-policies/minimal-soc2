@@ -1,8 +1,3 @@
----
-title: Encryption and Key Management Policy (OP-POL-001)
-parent: Operational Policies
-nav_order: 1
----
 ### 1. Objective
 
 The objective of this policy is to establish requirements for the secure configuration and use of cloud-native encryption and key management services at **[Company Name]**. This policy ensures that sensitive information is protected through appropriate cloud encryption technologies and that cryptographic keys are securely managed using cloud provider key management services in compliance with SOC 2 requirements.

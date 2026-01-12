@@ -1,8 +1,3 @@
----
-title: Risk Management Policy (SEC-POL-003)
-parent: Security Policies
-nav_order: 3
----
 ### 1. Objective
 
 The objective of this policy is to establish a comprehensive risk management framework for **[Company Name]** that meets SOC 2 requirements while maintaining practical implementation. This policy ensures that information security risks are systematically identified, assessed, and managed to protect company information assets and maintain business operations.

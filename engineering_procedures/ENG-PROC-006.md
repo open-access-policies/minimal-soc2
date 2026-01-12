@@ -1,8 +1,3 @@
----
-title: Privileged Infrastructure Access Review Procedure (ENG-PROC-006)
-parent: Engineering Procedures
-nav_order: 6
----
 ### 1. Purpose
 
 The purpose of this procedure is to outline the steps for conducting and documenting the required quarterly reviews of all user accounts with privileged access to production infrastructure, ensuring the principle of least privilege is maintained.

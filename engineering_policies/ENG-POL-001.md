@@ -1,8 +1,3 @@
----
-title: Secure Software Development Policy (ENG-POL-001)
-parent: Engineering Policies
-nav_order: 1
----
 ### 1. Objective
 
 The objective of this policy is to establish comprehensive security requirements for software development at **[Company Name]** that meet SOC 2 requirements while maintaining practical implementation. This policy ensures security controls are integrated into development processes to protect company information systems and maintain system security.

@@ -1,8 +1,3 @@
----
-title: Internal Audit Procedure (SEC-PROC-002)
-parent: Security Procedures
-nav_order: 2
----
 ### 1. Purpose
 
 To outline the process for planning, conducting, and reporting on annual internal audits of the Information Security Management System (ISMS).

@@ -1,8 +1,3 @@
----
-title: System Hardening and Baselining Procedure (ENG-PROC-005)
-parent: Engineering Procedures
-nav_order: 5
----
 ### 1. Purpose
 
 The purpose of this procedure is to describe the process for applying documented security baselines to new systems and verifying their ongoing compliance to ensure a consistent and secure configuration.

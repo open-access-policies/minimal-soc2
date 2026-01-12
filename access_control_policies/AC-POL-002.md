@@ -1,8 +1,3 @@
----
-title: Acceptable Use Policy (AC-POL-002)
-parent: Access Control Policies
-nav_order: 2
----
 ### 1. Objective
 
 The objective of this policy is to establish acceptable use rules for **[Company Name]**'s network, information systems, and software resources that meet SOC 2 requirements while maintaining practical implementation. This policy protects company information resources and ensures a secure, productive work environment.

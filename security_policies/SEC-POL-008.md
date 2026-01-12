@@ -1,8 +1,3 @@
----
-title: Vulnerability Management Policy (SEC-POL-008)
-parent: Security Policies
-nav_order: 8
----
 
 # Vulnerability Management Policy (SEC-POL-008)
 

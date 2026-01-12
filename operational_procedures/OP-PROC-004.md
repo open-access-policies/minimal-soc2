@@ -1,8 +1,3 @@
----
-title: Secure Media Disposal and Sanitization Procedure (OP-PROC-004)
-parent: Operational Procedures
-nav_order: 4
----
 ### 1. Purpose
 
 To provide step-by-step instructions for securely destroying or sanitizing different types of electronic media and physical documents to prevent the unauthorized disclosure of sensitive information.

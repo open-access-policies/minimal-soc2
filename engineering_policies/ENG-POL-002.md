@@ -1,8 +1,3 @@
----
-title: Change Control Policy (ENG-POL-002)
-parent: Engineering Policies
-nav_order: 2
----
 ### 1. Objective
 
 The objective of this policy is to establish a formal process for managing all changes to **[Company Name]**'s production systems, applications, and infrastructure. This policy ensures that all modifications are properly authorized, tested, documented, and reviewed to maintain system stability, security, and integrity, thereby protecting sensitive data.

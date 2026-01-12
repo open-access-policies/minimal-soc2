@@ -1,8 +1,3 @@
----
-title: Lost or Stolen Mobile Device Response Procedure (OP-PROC-003)
-parent: Operational Procedures
-nav_order: 3
----
 ### 1. Purpose
 
 To provide the immediate steps a user and the IT Security Team take when a mobile device used for company business is reported lost or stolen.

@@ -1,8 +1,3 @@
----
-title: Vendor Risk Assessment and Onboarding Procedure (SEC-PROC-005)
-parent: Security Procedures
-nav_order: 5
----
 ### 1. Purpose
 
 To detail the process for assessing a new vendor's security posture before engagement to ensure they meet the company's security requirements.

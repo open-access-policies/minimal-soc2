@@ -1,8 +1,3 @@
----
-title: Infrastructure Security Policy (ENG-POL-003)
-parent: Engineering Policies
-nav_order: 3
----
 ### 1. Objective
 
 The objective of this policy is to establish security requirements for the configuration and management of **[Company Name]**'s cloud infrastructure in accordance with industry-standard security benchmarks. This policy ensures that all infrastructure components are configured and hardened according to specific cloud provider security benchmarks while maintaining SOC 2 compliance and practical implementation for cloud-first operations.

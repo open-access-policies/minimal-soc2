@@ -1,8 +1,3 @@
----
-title: Information Security Policy (SEC-POL-001)
-parent: Security Policies
-nav_order: 1
----
 
 # Information Security Policy (SEC-POL-001)
 

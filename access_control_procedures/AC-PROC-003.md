@@ -1,8 +1,3 @@
----
-title: User Access Review Procedure (AC-PROC-003)
-parent: Access Control Procedures
-nav_order: 3
----
 ### 1. Purpose
 
 To define the process for conducting periodic reviews of user access rights to ensure adherence to the principle of least privilege.

@@ -1,8 +1,3 @@
----
-title: Vendor and Third-Party Risk Management Policy (SEC-POL-005)
-parent: Security Policies
-nav_order: 5
----
 ### 1. Objective
 
 The objective of this policy is to establish requirements for assessing, managing, and monitoring security risks associated with vendors and third-party service providers. This policy ensures that **[Company Name]** maintains appropriate oversight of external parties who access, process, store, or transmit company information while maintaining SOC 2 compliance.

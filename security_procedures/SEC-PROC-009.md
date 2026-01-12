@@ -1,8 +1,3 @@
----
-title: Vulnerability Management Exception Procedure (SEC-PROC-009)
-parent: Security Procedures
-nav_order: 9
----
 ### 1. Purpose
 
 To outline the process for formally requesting, approving, and documenting an exception to a remediation Service Level Agreement (SLA) for an identified vulnerability.

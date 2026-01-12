@@ -1,8 +1,3 @@
----
-title: Post-Incident Review Procedure ([RES-PROC-003])
-parent: Resilience Procedures
-nav_order: 3
----
 ### 1. Purpose
 
 To outline the process for conducting a formal 'lessons learned' review after a significant incident is resolved and for tracking resulting action items to completion.

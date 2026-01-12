@@ -1,8 +1,3 @@
----
-title: Data Retention and Disposal Policy (OP-POL-003)
-parent: Operational Policies
-nav_order: 3
----
 ### 1. Objective
 
 The objective of this policy is to establish requirements for the retention, archival, and secure disposal of **[Company Name]**'s information assets throughout their lifecycle. This policy ensures that information is retained for appropriate periods to meet business and legal requirements while ensuring secure disposal when information is no longer needed, in compliance with SOC 2 requirements.

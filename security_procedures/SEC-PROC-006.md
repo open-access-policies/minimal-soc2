@@ -1,8 +1,3 @@
----
-title: Facility Access Management Procedure (SEC-PROC-006)
-parent: Security Procedures
-nav_order: 6
----
 ### 1. Purpose
 
 To describe the process for provisioning, reviewing, and revoking physical access to company facilities to ensure a secure physical environment.

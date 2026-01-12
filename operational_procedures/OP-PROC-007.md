@@ -1,8 +1,3 @@
----
-title: Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)
-parent: Operational Procedures
-nav_order: 7
----
 ### 1. Purpose
 
 To provide a formal checklist and process to ensure all security-related tasks are consistently and verifiably completed during employee onboarding and termination.

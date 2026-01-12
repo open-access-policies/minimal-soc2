@@ -1,8 +1,3 @@
----
-title: Security Policy Sanction Procedure (OP-PROC-008)
-parent: Operational Procedures
-nav_order: 8
----
 ### 1. Purpose
 
 To describe the formal process for documenting violations of information security policies and applying consistent, fair, and appropriate disciplinary actions.

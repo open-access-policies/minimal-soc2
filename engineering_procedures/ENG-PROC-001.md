@@ -1,8 +1,3 @@
----
-title: Application Security Testing Procedure (ENG-PROC-001)
-parent: Engineering Procedures
-nav_order: 1
----
 ### 1. Purpose
 
 The purpose of this procedure is to detail the process for conducting static application security testing (SAST), dynamic application security testing (DAST), and penetration testing to identify and remediate security vulnerabilities in applications.

@@ -1,8 +1,3 @@
----
-title: Third-Party Component Security Review Procedure (ENG-PROC-002)
-parent: Engineering Procedures
-nav_order: 2
----
 ### 1. Purpose
 
 The purpose of this procedure is to define the steps for scanning, reviewing, and approving the use of new open-source or commercial software components to minimize security and licensing risks.

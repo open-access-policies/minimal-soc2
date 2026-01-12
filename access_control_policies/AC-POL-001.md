@@ -1,8 +1,3 @@
----
-title: Access Control Policy (AC-POL-001)
-parent: Access Control Policies
-nav_order: 1
----
 ### 1. Objective
 
 The objective of this policy is to define requirements for managing access to **[Company Name]**'s information systems and data based on SOC 2 requirements. This policy ensures access is granted using least privilege principles, protecting company and customer information while maintaining practical implementation.

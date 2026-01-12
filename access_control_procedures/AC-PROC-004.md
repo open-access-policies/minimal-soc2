@@ -1,8 +1,3 @@
----
-title: Access Control Management Procedure (AC-PROC-004)
-parent: Access Control Procedures
-nav_order: 4
----
 ### 1. Purpose
 
 To define the process for requesting, approving, implementing, modifying, and revoking user access to company information systems, ensuring the principle of least privilege is enforced.

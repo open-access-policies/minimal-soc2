@@ -1,8 +1,3 @@
----
-title: Risk Assessment Procedure (SEC-PROC-004)
-parent: Security Procedures
-nav_order: 4
----
 ### 1. Purpose
 
 To establish a systematic process for conducting annual and ad-hoc risk assessments to identify, analyze, and evaluate risks to the organization's information assets.

@@ -1,8 +1,3 @@
----
-title: Schedule of Security Procedures (ISMS-SUP-001)
-parent: ISMS Supplements
-nav_order: 1
----
 
 #### **Quarterly Procedures**
 

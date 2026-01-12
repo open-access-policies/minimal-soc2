@@ -1,8 +1,3 @@
----
-title: Legal Hold Procedure (OP-PROC-005)
-parent: Operational Procedures
-nav_order: 5
----
 ### 1. Purpose
 
 To outline the steps for issuing, tracking, and releasing a legal hold on information that is relevant to reasonably anticipated or actual litigation, government investigation, or audit.

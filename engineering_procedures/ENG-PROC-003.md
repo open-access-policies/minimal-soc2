@@ -1,8 +1,3 @@
----
-title: Standard Change Management Procedure (ENG-PROC-003)
-parent: Engineering Procedures
-nav_order: 3
----
 ### 1. Purpose
 
 The purpose of this procedure is to detail the end-to-end process for a standard, non-emergency change to a production application or its configuration, ensuring that all changes are properly developed, tested, reviewed, and approved.
