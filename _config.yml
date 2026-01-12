@@ -4,20 +4,6 @@ description: "Professional SOC 2 Compliance Framework for Organizations"
 # url: "https://open-access-policies.github.io"
 baseurl: "/minimal-soc2"
 
-# --- Include underscore directories for raw markdown access ---
-include:
-  - _access_control_policies
-  - _access_control_procedures
-  - _engineering_policies
-  - _engineering_procedures
-  - _operational_policies
-  - _operational_procedures
-  - _resilience_policies
-  - _resilience_procedures
-  - _security_policies
-  - _security_procedures
-  - _isms_supplements
-
 # --- Hydejack Specific Settings ---
 hydejack:
   theme: theme-base-08
@@ -35,42 +21,6 @@ favicon: /assets/images/logo.png
 
 # --- Search ---
 search: true
-
-# --- Collections ---
-collections:
-  engineering_policies:
-    output: true
-    permalink: /:collection/:path/
-  engineering_procedures:
-    output: true
-    permalink: /:collection/:path/
-  operational_policies:
-    output: true
-    permalink: /:collection/:path/
-  operational_procedures:
-    output: true
-    permalink: /:collection/:path/
-  access_control_policies:
-    output: true
-    permalink: /:collection/:path/
-  access_control_procedures:
-    output: true
-    permalink: /:collection/:path/
-  resilience_policies:
-    output: true
-    permalink: /:collection/:path/
-  resilience_procedures:
-    output: true
-    permalink: /:collection/:path/
-  security_policies:
-    output: true
-    permalink: /:collection/:path/
-  security_procedures:
-    output: true
-    permalink: /:collection/:path/
-  isms_supplements:
-    output: true
-    permalink: /:collection/:path/
 
 # --- Navigation ---
 # This section defines the links that will appear in the sidebar.
@@ -93,82 +43,13 @@ sidebar_links:
 
 
 # --- Defaults ---
-# This is the critical fix. We are telling Jekyll to use the 'page'
-# layout for every document inside every one of your collections.
-# This will override any incorrect 'layout' settings in the individual files.
 defaults:
-  # Add this global default for all pages
   - scope:
-      path: "" # This means all files
+      path: ""
     values:
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-      accent_color: "#bababa" # Solid gray color
-
-  - scope:
-      type: "engineering_policies"
-    values:
-      layout: "page"
-  - scope:
-      type: "engineering_procedures"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "operational_policies"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "operational_procedures"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "access_control_policies"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "access_control_procedures"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "resilience_policies"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "resilience_procedures"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "security_policies"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "security_procedures"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
-  - scope:
-      type: "isms_supplements"
-    values:
-      layout: "page"
-      hide_title: true # Add this line to hide page titles
-      no_page_title: true # This removes the page title from the top of each page.
+      hide_title: true
+      no_page_title: true
+      accent_color: "#bababa"
 
 # --- Build settings ---
 remote_theme: "hydecorp/hydejack@v9.2.1"

@@ -240,11 +240,11 @@ async function loadDocument(path) {
   }
 
   try {
-    // Construct file path - fetch from jsdelivr CDN for raw markdown
+    // Construct file path - files are served as static assets
     const parts = path.split('/');
     const collection = parts[0];
     const filename = parts[1];
-    const filePath = `https://cdn.jsdelivr.net/gh/open-access-policies/minimal-soc2@main/_${collection}/${filename}.md`;
+    const filePath = `${collection}/${filename}.md`;
 
     const response = await fetch(filePath);
     if (!response.ok) throw new Error('Document not found');
