@@ -22,7 +22,7 @@ Access rights shall be managed throughout the user's employment lifecycle.
     
 - **Modification:** When workforce members change roles, their manager shall request access modifications. Previous access no longer needed shall be revoked.
     
-- **Deprovisioning:** Upon termination, all system and facility access shall be revoked within **[Number, e.g., 24]** hours. For involuntary terminations, access shall be revoked immediately when possible.
+- **Deprovisioning:** Upon termination, all system and facility access shall be revoked within **[Number, e.g., 24]** hours. For involuntary terminations, access shall be revoked within one (1) hour of the termination decision.
 
 **3.3 Access Reviews**
 
@@ -74,7 +74,7 @@ All systems and applications must be configured to enforce comprehensive passwor
 
 - **Session Timeouts:** Systems shall automatically terminate inactive sessions after **[Duration, e.g., 15 minutes]** for sensitive systems and **[Duration, e.g., 30 minutes]** for other systems.
 
-- **Network Security:** Corporate networks shall be segmented with appropriate access controls between network zones.
+- **Network Security:** Corporate networks shall be segmented with role-based access controls, documented firewall rules, and quarterly access reviews between network zones.
 
 **3.6 Remote Access Security**
 

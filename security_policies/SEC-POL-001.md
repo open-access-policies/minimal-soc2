@@ -17,7 +17,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 **[Company Name]** establishes effective security governance.
 
-- An **[Role Title, e.g., IT Manager/Security Officer]** is designated with responsibility for information security. This role may be combined with other IT responsibilities as appropriate.
+- An **[Role Title, e.g., IT Manager/Security Officer]** is designated with responsibility for information security. This role may be combined with other IT responsibilities provided separation of duties is maintained for audit, access provisioning, and incident response functions.
 
 - Security roles and responsibilities are documented and communicated to all workforce members.
 
@@ -29,7 +29,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 - An annual risk assessment is conducted to identify security risks to company systems and data.
 
-- High and medium risks are documented and addressed with appropriate controls.
+- High and medium risks are documented in the risk register and addressed with controls mapped to specific SOC 2 Common Criteria requirements (CC3.1-CC3.4).
 
 - A risk register is maintained to track identified risks and mitigation efforts.
 
@@ -85,7 +85,7 @@ Company and customer data is protected through comprehensive data protection mea
 
 - Encryption is implemented for data in transit and at rest for all sensitive data.
 
-- Data retention and disposal procedures ensure proper data lifecycle management.
+- Data retention and disposal procedures follow documented retention schedules, with disposal methods verified against NIST SP 800-88 guidelines or equivalent.
 
 - Regular backups are performed and tested to ensure data recoverability.
 

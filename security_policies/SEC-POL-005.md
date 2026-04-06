@@ -22,14 +22,14 @@ Vendors shall be classified into risk categories based on the following factors:
 - Business criticality and financial impact
 - Duration and scope of engagement
 
-**Risk Classifications:**
-- **High Risk:** Vendors with access to Confidential data or critical systems; cloud service providers; vendors with privileged access
-- **Medium Risk:** Vendors with access to Internal data or providing business-critical services
-- **Low Risk:** Vendors with limited access to Internal data or no direct system access; vendors providing non-critical services
+**Risk Classifications** (scored on data sensitivity, system access level, business criticality, and engagement scope; each rated 1-3, with total score determining classification):
+- **High Risk** (total score 9-12): Vendors with access to Confidential data or critical systems; cloud service providers hosting production workloads; vendors with privileged or administrative access
+- **Medium Risk** (total score 5-8): Vendors with access to Internal data or providing business-critical services without direct access to Confidential data
+- **Low Risk** (total score 1-4): Vendors with limited access to Internal data or no direct system access; vendors providing non-critical services with no data processing responsibilities
 
 **3.1.2 Pre-Engagement Risk Assessment**
 
-Prior to engaging any vendor, appropriate risk assessment shall be conducted based on the vendor's risk classification.
+Prior to engaging any vendor, a risk assessment matching the requirements below shall be conducted based on the vendor's risk classification.
 
 **High-Risk Vendor Requirements:**
 - Comprehensive security questionnaire
