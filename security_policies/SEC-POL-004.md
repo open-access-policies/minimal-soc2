@@ -51,7 +51,7 @@ Specific security controls shall be implemented based on information classificat
 - Access restricted to authorized **[Company Name]** workforce members
 - Password-protected when stored on portable devices
 - Transmitted via secure channels (encrypted email, secure file transfer)
-- Stored on company-approved systems with appropriate access controls
+- Stored on company-approved systems with role-based access controls, documented authorization, and quarterly access reviews
 - Covered by confidentiality agreements for third-party access
 
 **3.3.3 Confidential Information**
@@ -95,7 +95,7 @@ Information transmission methods shall align with classification requirements.
 
 **3.7 Information Retention and Disposal**
 
-Information shall be retained according to business requirements and then securely disposed of when no longer needed.
+Information shall be retained according to documented retention schedules and disposed of using methods verified against NIST SP 800-88 guidelines (or equivalent) when retention periods expire.
 
 - Retention schedules shall be established for each information type considering business and legal requirements
 - Secure disposal methods shall be used for all Confidential information:

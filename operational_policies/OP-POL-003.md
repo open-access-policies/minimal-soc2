@@ -203,4 +203,4 @@ This policy is designed to comply with and support the following industry standa
 |**Legal Team**|Establish legal retention requirements, issue legal hold notices, support eDiscovery activities, and ensure compliance with legal obligations.|
 |**IT Department**|Implement secure disposal technologies, verify disposal completion, manage disposal vendors, and ensure security of disposal processes.|
 |**Information Owners**|Determine business retention requirements, approve disposal activities, participate in retention reviews, and ensure appropriate information handling.|
-|**All Workforce Members**|Comply with retention requirements, participate in legal holds, properly dispose of information, and report retention violations.|
+|**All Workforce Members**|Comply with retention requirements, participate in legal holds, dispose of information using approved methods defined in Section 3.4, and report retention violations.|

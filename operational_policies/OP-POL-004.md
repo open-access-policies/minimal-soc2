@@ -65,7 +65,7 @@ This policy is designed to comply with and support the following industry standa
 
 - **Workforce Member:** All employees, contractors, and temporary staff working for **[Company Name]**.
 
-- **Background Check:** A process of verifying the identity and credentials of a candidate for employment, which may include criminal history, employment verification, and other checks as permitted by law.
+- **Background Check:** A process of verifying the identity and credentials of a candidate for employment, which may include criminal history, employment verification, and other checks conducted in accordance with applicable federal, state, and local employment screening regulations (e.g., FCRA in the United States).
 
 - **Sanction:** A penalty or disciplinary action imposed for violating a rule or policy.
 

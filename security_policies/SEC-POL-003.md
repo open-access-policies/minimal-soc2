@@ -47,7 +47,7 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 **3.4 Risk Treatment**
 
-**[Company Name]** shall implement appropriate responses to identified risks based on their level and business impact.
+**[Company Name]** shall implement documented risk treatment responses (accept, avoid, mitigate, or transfer) for each identified risk based on its assessed level and business impact.
 
 - Risk treatment options include:
   - **Accept:** Monitor risks within acceptable tolerance levels

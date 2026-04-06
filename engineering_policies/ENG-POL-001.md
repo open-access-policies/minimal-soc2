@@ -46,7 +46,7 @@ Security is a shared team responsibility, with all team members contributing to 
 
 - **Team Accountability:** All development team members are responsible for following secure coding practices and identifying potential security issues.
 
-- **Team Lead Oversight:** Team leads are responsible for ensuring team members understand and follow secure development practices and receive appropriate security training.
+- **Team Lead Oversight:** Team leads are responsible for ensuring team members understand and follow secure development practices and complete the required annual secure coding training defined in Section 3.6.
 
 - **Collaborative Security:** Security considerations shall be discussed openly within development teams and integrated into regular development activities.
 
@@ -62,7 +62,7 @@ Third-party libraries and components shall be managed to minimize security risks
 
 **3.6 Security Training and Awareness**
 
-Development team members shall receive appropriate security training to support secure development practices.
+Development team members shall receive annual security training covering OWASP Top 10, secure coding practices for the company's technology stack, and incident reporting procedures.
 
 - **Initial Training:** New development team members shall receive secure coding training within **[Number, e.g., 90]** days of starting.
 
@@ -95,6 +95,6 @@ This policy is designed to comply with and support the following industry standa
 |**Role**|**Responsibility**|
 |---|---|
 |**IT Manager/Security Officer**|Develop and maintain secure development policies and ensure security scanning tools are available and current.|
-|**Development Team Lead**|Ensure team compliance with secure development practices, coordinate code reviews, and ensure team members receive appropriate security training.|
+|**Development Team Lead**|Ensure team compliance with secure development practices, coordinate code reviews, and ensure team members complete required annual secure coding training.|
 |**Software Developers**|Follow secure coding practices, participate in code reviews, complete required security training, and report security vulnerabilities.|
 |**All Development Team Members**|Support security initiatives and collaborate on implementing secure development practices within their teams.|

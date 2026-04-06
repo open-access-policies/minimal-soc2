@@ -56,7 +56,7 @@ Infrastructure deployments shall be managed through Infrastructure as Code (IaC)
 - All infrastructure shall be defined and deployed using IaC templates (e.g., CloudFormation, Terraform, ARM templates)
 - IaC templates shall be scanned for security misconfigurations before deployment
 - Template configurations shall align with applicable cloud provider security benchmarks
-- Version control shall be used for all infrastructure code with appropriate access controls
+- Version control shall be used for all infrastructure code with role-based access controls, branch protection rules, and documented authorization for merge privileges
 
 **Configuration Drift Prevention:**
 - Automated monitoring shall detect configuration drift from approved security baselines
